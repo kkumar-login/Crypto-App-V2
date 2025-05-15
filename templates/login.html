@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Admin Login</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background: url('/static/bg.jpg') no-repeat center center fixed;
+      background-size: cover;
+      font-family: 'Inter', sans-serif;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+    }
+    .login-container {
+      background: rgba(0,0,0,0.7);
+      padding: 40px;
+      border-radius: 15px;
+      width: 300px;
+      box-shadow: 0 0 15px #7f5af0;
+      text-align: center;
+    }
+    .login-container h2 {
+      color: white;
+      margin-bottom: 30px;
+      font-weight: 700;
+    }
+    .input-box {
+      margin-bottom: 20px;
+      text-align: left;
+    }
+    .input-box label {
+      color: #b0b0b0;
+      font-size: 14px;
+    }
+    .input-box input {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: none;
+      border-radius: 8px;
+      background: #1a1a22;
+      color: white;
+      font-size: 14px;
+    }
+    .login-btn {
+      width: 100%;
+      padding: 12px;
+      background: #7f5af0;
+      color: white;
+      font-weight: 600;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    .login-btn:hover {
+      background: #5e3fdc;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-container">
+    <h2>Admin Login</h2>
+    <div class="input-box">
+      <label for="username">Username</label>
+      <input type="text" id="username" placeholder="Enter username">
+    </div>
+    <div class="input-box">
+      <label for="password">Password</label>
+      <input type="password" id="password" placeholder="Enter password">
+    </div>
+    <button class="login-btn" onclick="handleLogin()">Login</button>
+  </div>
+
+  <script>
+    async function handleLogin() {
+      const username = document.getElementById('username').value;
+      const password = document.getElementById('password').value;
+
+      const res = await fetch('/login', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ username, password })
+      });
+
+      const data = await res.json();
+      if (data.success) {
+        window.location.href = "/";
+      } else {
+        alert(data.error || "Invalid credentials!");
+      }
+    }
+  </script>
+</body>
+</html>

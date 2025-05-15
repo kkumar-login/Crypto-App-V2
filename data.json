@@ -1,0 +1,20 @@
+{
+  "keys": {
+    "QLBSL81ZBYTB": {"type": "1M", "devices": 1, "expires": "2025-06-08T00:00:00", "used_devices": [], "blocked": false},
+    "VPU77IJI0BXL": {"type": "1M", "devices": 1, "expires": "2025-06-08T00:00:00", "used_devices": [], "blocked": false},
+    "561CKCJMMK3A": {"type": "1M", "devices": 1, "expires": "2025-06-08T00:00:00", "used_devices": [], "blocked": false},
+    "9OUJYYCR5ALL": {"type": "1M", "devices": 1, "expires": "2025-06-08T00:00:00", "used_devices": [], "blocked": false},
+    "XGPLAD02K96R": {"type": "1M", "devices": 1, "expires": "2025-06-08T00:00:00", "used_devices": [], "blocked": false},
+    "GAEOQNXJQI9J": {"type": "2M", "devices": 3, "expires": "2025-07-08T00:00:00", "used_devices": [], "blocked": false},
+    "43VYB5VJYLM9": {"type": "2M", "devices": 3, "expires": "2025-07-08T00:00:00", "used_devices": [], "blocked": false},
+    "9R45OIJKZ71Q": {"type": "2M", "devices": 3, "expires": "2025-07-08T00:00:00", "used_devices": [], "blocked": false},
+    "T16CIBJ4AL79": {"type": "2M", "devices": 3, "expires": "2025-07-08T00:00:00", "used_devices": [], "blocked": false},
+    "SP7U5AVLNM5H": {"type": "2M", "devices": 3, "expires": "2025-07-08T00:00:00", "used_devices": [], "blocked": false},
+    "D578B8LNI61D": {"type": "3M", "devices": 5, "expires": "2025-08-08T00:00:00", "used_devices": [], "blocked": false},
+    "I35OF878G4ES": {"type": "3M", "devices": 5, "expires": "2025-08-08T00:00:00", "used_devices": [], "blocked": false},
+    "WM7LIP73XR09": {"type": "3M", "devices": 5, "expires": "2025-08-08T00:00:00", "used_devices": [], "blocked": false},
+    "PC9ZLK2VITSI": {"type": "3M", "devices": 5, "expires": "2025-08-08T00:00:00", "used_devices": [], "blocked": false},
+    "G4F2FO6CUSA2": {"type": "3M", "devices": 5, "expires": "2025-08-08T00:00:00", "used_devices": [], "blocked": false}
+  },
+  "logins": []
+}

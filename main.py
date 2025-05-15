@@ -5,11 +5,8 @@ import os
 import requests
 from Crypto.Cipher import AES
 from Crypto.Util.Padding import unpad
-from flask_cors import CORS
 
 app = Flask(__name__)
-CORS(app)
-
 app.secret_key = 'Hr857#hcj@9-_tuhbku@54'
 
 # ===== Load keys and sessions =====

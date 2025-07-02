@@ -38,8 +38,8 @@ def save_sessions():
         }, f, indent=2)
 
 # ========== Admin credentials ==========
-ADMIN_USERNAME = "adminv2"
-ADMIN_PASSWORD = "myp@ssword"
+ADMIN_USERNAME = "Admin-vicx"
+ADMIN_PASSWORD = "vicxio@"
 
 # ========== ROUTES ==========
 def get_real_ip():

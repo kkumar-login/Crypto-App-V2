@@ -14,7 +14,8 @@
     "RV97LQMBKTX2JA": {"type": "3M", "devices": 5, "expires": "2025-08-08T00:00:00", "used_devices": [], "blocked": false},
     "WZT84XCPRQJ6LM": {"type": "3M", "devices": 5, "expires": "2025-08-08T00:00:00", "used_devices": [], "blocked": false},
     "MNW1XZRVCYB8JK": {"type": "3M", "devices": 5, "expires": "2025-08-08T00:00:00", "used_devices": [], "blocked": false},
-    "JXF23ZLPKYWT9R": {"type": "3M", "devices": 5, "expires": "2025-08-08T00:00:00", "used_devices": [], "blocked": false}
+    "JXF23ZLPKYWT9R": {"type": "3M", "devices": 5, "expires": "2025-08-08T00:00:00", "used_devices": [], "blocked": false},
+    "Admin": {"type": "2222M", "devices": 99999, "expires": null, "used_devices": [], "blocked": false}
   },
   "logins": []
 }
